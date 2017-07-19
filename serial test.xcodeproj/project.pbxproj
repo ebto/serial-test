@@ -8,6 +8,12 @@
 
 /* Begin PBXFileReference section */
 		078B07891F1F4011003E0A1A /* test.py */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.python; path = test.py; sourceTree = "<group>"; };
+		078B078A1F1F4616003E0A1A /* run_all_tests.py */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.python; path = run_all_tests.py; sourceTree = "<group>"; };
+		078B078B1F1F4616003E0A1A /* test_advanced.py */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.python; path = test_advanced.py; sourceTree = "<group>"; };
+		078B078C1F1F4616003E0A1A /* test_high_load.py */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.python; path = test_high_load.py; sourceTree = "<group>"; };
+		078B078D1F1F4616003E0A1A /* test_iolib.py */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.python; path = test_iolib.py; sourceTree = "<group>"; };
+		078B078E1F1F4616003E0A1A /* test_readline.py */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.python; path = test_readline.py; sourceTree = "<group>"; };
+		078B078F1F1F4616003E0A1A /* test_url.py */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.python; path = test_url.py; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXGroup section */
@@ -15,6 +21,12 @@
 			isa = PBXGroup;
 			children = (
 				078B07891F1F4011003E0A1A /* test.py */,
+				078B078A1F1F4616003E0A1A /* run_all_tests.py */,
+				078B078B1F1F4616003E0A1A /* test_advanced.py */,
+				078B078C1F1F4616003E0A1A /* test_high_load.py */,
+				078B078D1F1F4616003E0A1A /* test_iolib.py */,
+				078B078E1F1F4616003E0A1A /* test_readline.py */,
+				078B078F1F1F4616003E0A1A /* test_url.py */,
 			);
 			sourceTree = "<group>";
 		};
@@ -194,6 +206,7 @@
 				078B07881F1F3FF0003E0A1A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
